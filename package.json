@@ -1,0 +1,27 @@
+{
+  "name": "taplog",
+  "version": "1.0.0",
+  "description": "console.log things as tap comments",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ryanstevens/taplog.git"
+  },
+  "keywords": [
+    "tap"
+  ],
+  "author": "Ryan Stevens",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanstevens/taplog/issues"
+  },
+  "homepage": "https://github.com/ryanstevens/taplog",
+  "dependencies": {
+    "split": "^0.3.3",
+    "tape": "^3.5.0",
+    "through2": "^0.6.3"
+  }
+}
